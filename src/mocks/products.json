@@ -1,0 +1,41 @@
+{
+   "products": [
+      {
+         "id": 1,
+         "title": "Vinilo Noche Estrellada",
+         "description": "Vinilo, de color topacio para una noche estrellada",
+         "price": 50,
+         "category": "modern",
+         "thumbnail":"https://i.ibb.co/FsRCyH1/vinilo-3.jpg",
+         "images": []
+      },
+      {
+         "id": 2,
+         "title": "Vinilo Arcoiris",
+         "description": "",
+         "price": 1000,
+         "category": "classic",
+         "thumbnail": "https://i.ibb.co/dD4Jg9y/vinilo-2.jpg",
+         "images": []
+      },
+      {
+         "id": 3,
+         "title": "Vinilo Abstracto",
+         "price": 800,
+         "category": "classic",
+         "thumbnail": "https://i.ibb.co/wdWgbdj/vinilo1.jpg",
+         "images": []
+      },
+      {
+         "id": 4,
+         "title": "Vinilo etc",
+         "price": 500,
+         "category": "classic",
+         "thumbnail": "https://i.ibb.co/wLwH0M6/vinilo-4.jpg",
+         "images": []
+      }
+   ],
+   "total": 100,
+   "skip": 0,
+   "limit": 30
+}

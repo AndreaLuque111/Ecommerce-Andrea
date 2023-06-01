@@ -1,0 +1,99 @@
+body {
+  font-family: "Lato", sans-serif;
+  background-color: #adada6;
+  color: #222;
+  overflow-x: hidden;
+  margin: 0;
+}
+a {
+  text-decoration: none;
+  color: #000000;
+  transition: transform 0.4s ease-in;
+}
+.nav_menu {
+  display: flex;
+  justify-content: center;
+  position: fixed;
+  left: 0;
+  right: 0;
+}
+.container_nav {
+  background-color: #fafafa;
+  transform-origin: top left;
+  transition: transform 0.5s linear;
+}
+
+.container.show-nav {
+  transform: rotate(-20deg);
+}
+
+.circle-container {
+  position: fixed;
+  top: -100px;
+  left: -100px;
+}
+
+.circle {
+  background-color: #3093b0;
+  height: 200px;
+  width: 200px;
+  border-radius: 50%;
+  position: relative;
+  transition: transform 0.5s linear;
+}
+
+.circle button {
+  cursor: pointer;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  height: 100px;
+  background: transparent;
+  border: 0;
+  font-size: 26px;
+  color: #fff;
+}
+
+.circle button:focus {
+  outline: none;
+}
+
+
+
+.circle button#close {
+  top: 60%;
+  transform: rotate(90deg);
+  transform-origin: top left;
+}
+
+.nav {
+  background: #3093b0;
+  border-radius: 40px;
+  bottom: 0px;
+  left: 0;
+  z-index: 100;
+  opacity: 0;
+  pointer-events: none;
+  transition: opacity 0.4s ease-in;
+}
+
+.nav.show-nav {
+  padding: 0px 5%;
+  opacity: 1;
+  pointer-events: auto;
+}
+
+nav ul {
+  list-style: none;
+}
+
+nav ul li {
+  color: #fff;
+  margin: 40px 0;
+  transition: transform 0.4s ease-in;
+}
+
+nav ul li i {
+  font-size: 20px;
+  margin-right: 10px;
+}
